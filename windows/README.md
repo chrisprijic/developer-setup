@@ -87,7 +87,7 @@ execute scripts. Run the following in PowerShell:
 Set-ExecutionPolicy Unrestricted -Scope CurrentUser
 ```
 
-TODO(Chris): Add more about profiles (PowerShell and CMDer, WinBash, etc.)!
+_TODO(Chris): Add more about profiles (PowerShell and CMDer, WinBash, etc.)!_
 
 ### Node and npm
 
@@ -231,5 +231,4 @@ cinst awscli
 cinst awstools.powershell
 ```
 
-TODO(Chris): Add sections for language-specific setups I use!
-             Quick notes: nvm, go-env, virtualenv, etc.
+_TODO(Chris): Add sections for language-specific setups I use! Quick notes: nvm, go-env, virtualenv, etc._
