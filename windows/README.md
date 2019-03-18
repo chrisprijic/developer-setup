@@ -35,7 +35,7 @@ easier than ever! Keep in mind much development can be easy enough on Windows
 itself. Use the tool as much as you care to. Here's a how-to:
 
 - Ensure that you're running Windows 10 (build 14311 or above)
-- Enable Developer Mode (Settings - Update &* security > For developers)
+- Enable Developer Mode (Settings - Update & security > For developers)
 - Search for “Windows Features” and choose “Turn Windows features on or off” 
   and enable Windows Subsystem for Linux.
 - To get Bash installed, open Command Prompt and type “bash”
@@ -86,6 +86,8 @@ execute scripts. Run the following in PowerShell:
 ```
 Set-ExecutionPolicy Unrestricted -Scope CurrentUser
 ```
+
+TODO(Chris): Add more about profiles (PowerShell and CMDer, WinBash, etc.)!
 
 ### Node and npm
 
@@ -228,3 +230,6 @@ cinst azure-cli
 cinst awscli
 cinst awstools.powershell
 ```
+
+TODO(Chris): Add sections for language-specific setups I use!
+             Quick notes: nvm, go-env, virtualenv, etc.
