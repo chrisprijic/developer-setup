@@ -193,7 +193,6 @@ simple instructions to get profiles set up:
     - Optionally (I do this), check "Create a desktop shortcut for this user" 
       so I can pin it to the taskbar
 - Click "Save". A new window will open for this profile
-- (Optional)
 
 ## DevOps
 
