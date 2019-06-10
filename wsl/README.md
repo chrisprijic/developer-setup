@@ -22,7 +22,7 @@ specific to WSL
     - [Docker](#docker)
     - [AWS CLI](#aws-cli)
 
-### Enable WSL and Install Ubuntu
+## Enable WSL and Install Ubuntu
 
 - Ensure that you're running Windows 10 (build 14311 or above)
 - Enable Developer Mode (Settings - Update & security > For developers)
@@ -144,7 +144,7 @@ rvm i <VERSION>
 
 ### Basic Tools
 
-You can follow typical window setup [here](../windows/README.md).
+You can follow typical window setup [here](../windows/README.md#basic-tools).
 
 ## DevOps
 

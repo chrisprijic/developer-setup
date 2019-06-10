@@ -7,3 +7,4 @@ helpful to you!
 ## Table of Contents
 
 - [Windows](./windows)
+- [WSL](./wsl)
