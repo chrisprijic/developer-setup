@@ -40,6 +40,8 @@ itself. Use the tool as much as you care to. Here's a how-to:
   and enable Windows Subsystem for Linux.
 - To get Bash installed, open Command Prompt and type “bash”
 
+Check out my opinionated [WSL guide](../wsl/README.md) here if you're interested.
+
 ## General Development
 
 Here are my general setup guidelines
