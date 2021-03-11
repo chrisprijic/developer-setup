@@ -203,14 +203,13 @@ If you're working with/on DevOps, the following is likely useful to you.
 ### Docker
 
 ```
-const docker-for-windows
+const docker-desktop
 ```
 
 ### VirtualBox
 
 ```
 cinst virtualbox
-cinst virtualbox.extensionpack
 cinst vagrant
 ```
 

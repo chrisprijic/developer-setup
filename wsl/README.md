@@ -8,6 +8,7 @@ specific to WSL
 ## Table of Contents
 
 - [Enable WSL and Install Ubuntu](#enable-wsl-and-install-ubuntu)
+- [WSL2](#wsl2)
 - [General Development](#general-development)
     - [Package Management - Windows](#package-management-chocolatey)
     - [Package Management - Ubuntu](#package-management-ubuntu)
@@ -30,6 +31,15 @@ specific to WSL
   and enable Windows Subsystem for Linux
 - Reboot
 - Go to the Windows Store and install Ubuntu. On launch, you'll create your user and set your password
+
+## WSL2
+
+Complete the following after installing WSL and Ubuntu:
+
+Documentation:
+
+- [Announcement](https://ubuntu.com/blog/ubuntu-on-wsl-2-is-generally-available)
+- [Installation](https://docs.microsoft.com/en-us/windows/wsl/install-win10)
 
 ## General Development
 
@@ -211,6 +221,25 @@ docker info
 ```
 
 and all should be working fine.
+
+#### If you require `sudo` for `docker`:
+
+Check out the link [here](https://forums.docker.com/t/can-only-run-docker-as-root-in-wsl2/100165).
+
+You can also add your user to the docker group:
+
+```
+sudo usermod -aG docker $USER
+```
+
+Lastly, try
+
+```
+unset DOCKER_HOST
+```
+
+If the above works running `docker info` and `docker run hello-word` then you can
+remove the need for `export DOCKER_HOST=tcp://localhost:2375` from your env.
 
 ### AWS CLI
 
